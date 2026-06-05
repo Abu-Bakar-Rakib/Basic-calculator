@@ -1,13 +1,15 @@
 # Basic Calculator
 
-A simple yet effective command-line calculator application built with Python. This project demonstrates fundamental programming concepts including user input handling, arithmetic operations, and error management.
+A simple yet effective command-line calculator application built with Python. This project demonstrates fundamental programming concepts including user input handling, arithmetic operations, error handling, and clean code practices.
 
 ## Features
 
-- **Basic Arithmetic Operations**: Addition, subtraction, multiplication, and division
-- **User-Friendly Interface**: Simple command-line interface for easy interaction
-- **Error Handling**: Graceful handling of invalid inputs and edge cases
-- **Lightweight**: Minimal dependencies, easy to use and extend
+- ✨ **Basic Arithmetic Operations**: Addition, subtraction, multiplication, and division
+- 🎯 **User-Friendly Interface**: Interactive command-line interface with clear prompts
+- 🛡️ **Error Handling**: Graceful handling of invalid inputs, division by zero, and edge cases
+- 🔄 **Loop Functionality**: Perform multiple calculations in a single session
+- 📚 **Well-Documented Code**: Type hints and docstrings for easy understanding
+- 📦 **Lightweight**: Minimal dependencies, easy to use and extend
 
 ## Requirements
 
@@ -29,21 +31,37 @@ cd Basic-calculator
 
 Run the calculator:
 ```bash
-python calculator.py
+python "basic calculator.py"
 ```
 
 Follow the on-screen prompts to:
 1. Enter the first number
-2. Select an operation (+, -, *, /)
-3. Enter the second number
+2. Enter the second number
+3. Select an operation (+, -, *, /)
 4. View the result
+5. Perform another calculation or exit
 
 ### Example
+
 ```
-Enter first number: 10
-Enter operator (+, -, *, /): +
-Enter second number: 5
-Result: 15
+==================================================
+         Welcome to the Simple Calculator!
+==================================================
+Enter the first number: 10
+Enter the second number: 5
+
+Select operation:
+1. Addition (+)
+2. Subtraction (-)
+3. Multiplication (*)
+4. Division (/)
+
+Enter choice (1/2/3/4): 1
+
+10.0 addition 5.0 = 15.0
+
+Do you want to perform another calculation? (yes/no): no
+Thank you for using the calculator. Goodbye!
 ```
 
 ## Project Structure
@@ -51,8 +69,16 @@ Result: 15
 ```
 Basic-calculator/
 ├── README.md
-└── calculator.py
+└── basic calculator.py
 ```
+
+## Code Highlights
+
+- **Modular Design**: Functions are separated by responsibility (`get_numbers()`, `display_menu()`, `perform_operation()`)
+- **Type Hints**: Function signatures include type annotations for clarity
+- **Documentation**: Comprehensive docstrings explain what each function does
+- **Error Handling**: Input validation and graceful error messages
+- **User Experience**: Loop functionality allows continuous calculations without restarting
 
 ## Contributing
 
