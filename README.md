@@ -98,6 +98,4 @@ This project is open source and available under the MIT License.
 
 **Abu-Bakar-Rakib**
 
-## Support
-
-If you encounter any issues or have suggestions, please [open an issue](https://github.com/Abu-Bakar-Rakib/Basic-calculator/issues) on the GitHub repository.
+\
