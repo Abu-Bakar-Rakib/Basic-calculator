@@ -1,49 +1,21 @@
 # Basic Calculator
 
-A simple yet effective command-line calculator application built with Python. This project demonstrates fundamental programming concepts including user input handling, arithmetic operations, error handling, and clean code practices.
+[![Python](https://img.shields.io/badge/python-3.6%2B-blue.svg?logo=python)](https://www.python.org/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-## Features
+A modern, minimal command-line calculator written in Python — easy to read, easy to extend. Designed as a beginner-friendly example to demonstrate input handling, arithmetic operations, and simple CLI flow.
 
-- ✨ **Basic Arithmetic Operations**: Addition, subtraction, multiplication, and division
-- 🎯 **User-Friendly Interface**: Interactive command-line interface with clear prompts
-- 🛡️ **Error Handling**: Graceful handling of invalid inputs, division by zero, and edge cases
-- 🔄 **Loop Functionality**: Perform multiple calculations in a single session
-- 📚 **Well-Documented Code**: Type hints and docstrings for easy understanding
-- 📦 **Lightweight**: Minimal dependencies, easy to use and extend
+Highlights
 
-## Requirements
+- ✨ Clean, readable code with type hints and docstrings
+- ➕ Basic arithmetic: addition, subtraction, multiplication, division
+- 🛡️ Robust input validation and division-by-zero handling
+- 🔁 Interactive loop: perform multiple calculations without restarting
+- 📦 Zero external dependencies — runs on Python 3.6+
 
-- Python 3.6 or higher
+Demo
 
-## Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/Abu-Bakar-Rakib/Basic-calculator.git
-```
-
-2. Navigate to the project directory:
-```bash
-cd Basic-calculator
-```
-
-## Usage
-
-Run the calculator:
-```bash
-python "basic calculator.py"
-```
-
-Follow the on-screen prompts to:
-1. Enter the first number
-2. Enter the second number
-3. Select an operation (+, -, *, /)
-4. View the result
-5. Perform another calculation or exit
-
-### Example
-
-```
+```text
+$ python "basic calculator.py"
 ==================================================
          Welcome to the Simple Calculator!
 ==================================================
@@ -64,7 +36,22 @@ Do you want to perform another calculation? (yes/no): no
 Thank you for using the calculator. Goodbye!
 ```
 
-## Project Structure
+Quick start
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/Abu-Bakar-Rakib/Basic-calculator.git
+cd Basic-calculator
+```
+
+2. Run the program
+
+```bash
+python "basic calculator.py"
+```
+
+Project structure
 
 ```
 Basic-calculator/
@@ -72,29 +59,29 @@ Basic-calculator/
 └── basic calculator.py
 ```
 
-## Code Highlights
+How it works (brief)
 
-- **Modular Design**: Functions are separated by responsibility (`get_numbers()`, `display_menu()`, `perform_operation()`)
-- **Type Hints**: Function signatures include type annotations for clarity
-- **Documentation**: Comprehensive docstrings explain what each function does
-- **Error Handling**: Input validation and graceful error messages
-- **User Experience**: Loop functionality allows continuous calculations without restarting
+- The program prompts for two numbers and an operation choice.
+- Input validation ensures non-numeric input is rejected and division by zero is handled gracefully.
+- The calculation is shown and the user can choose to continue or exit.
 
-## Contributing
+Contributing
 
-Contributions are welcome! If you'd like to improve this project:
+Contributions, issues, and feature requests are welcome!
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/improvement`)
-3. Commit your changes (`git commit -m 'Add improvement'`)
-4. Push to the branch (`git push origin feature/improvement`)
-5. Open a Pull Request
+1. Fork the repo
+2. Create your feature branch (`git checkout -b feature/name`)
+3. Commit your changes (`git commit -m "Add feature"`)
+4. Push to the branch (`git push origin feature/name`)
+5. Open a pull request
 
-## License
+If you make changes, please keep the code style simple and add comments or docstrings for new functions.
 
-This project is open source and available under the MIT License.
+License
 
-## Author
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-**Abu-Bakar-Rakib**
+Author
+
+Abu-Bakar-Rakib — https://github.com/Abu-Bakar-Rakib
 
